@@ -10,8 +10,7 @@ namespace anagrams
     static void Main(string[] args)
     {
       string wordToFind = "Atelier".ToLower();
-      string text = File.ReadAllText("./static/mission1.txt", Encoding.UTF8);
-      var arrayWords = text.Split("\n");
+      string[] arrayWords = File.ReadAllLines("./static/mission1.txt");
       List<Array> matchWords = new List<Array>();
 
       for (int i = 0; i < arrayWords.Length; i++)
