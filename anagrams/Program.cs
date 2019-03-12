@@ -25,9 +25,13 @@ namespace anagrams
 
           foreach (var letter in concatText)
           {
+
             if (letterRest.IndexOf(letter) > -1)
             {
               letterRest = letterRest.Remove(letterRest.IndexOf(letter), 1);
+            } else
+            {
+                break;
             }
 
             if (letterRest.Length == 0)
