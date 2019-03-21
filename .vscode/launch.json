@@ -19,6 +19,18 @@
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
+            "name": "BOMB - .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bomb/bin/Debug/netcoreapp2.2/bomb.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/bomb",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",

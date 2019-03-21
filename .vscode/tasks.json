@@ -7,6 +7,16 @@
             "type": "process",
             "args": [
                 "build",
+                "${workspaceFolder}/bomb/bomb.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
                 "${workspaceFolder}/anagrams/anagrams.csproj"
             ],
             "problemMatcher": "$msCompile"
