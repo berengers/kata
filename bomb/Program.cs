@@ -27,15 +27,15 @@ namespace bomb
       for (int i = 0; i < codes.Length; i++)
       {
         var result = (
-          Int32.Parse(codes[9]) +
-          2 * Char.GetNumericValue(codes[i][8]) +
-          3 * Char.GetNumericValue(codes[i][7]) +
-          4 * Char.GetNumericValue(codes[i][6]) +
-          5 * Char.GetNumericValue(codes[i][5]) +
-          6 * Char.GetNumericValue(codes[i][4]) +
-          7 * Char.GetNumericValue(codes[i][3]) +
-          8 * Char.GetNumericValue(codes[i][2]) +
-          9 * Char.GetNumericValue(codes[i][1])
+          Char.GetNumericValue(codes[i][8]) +
+          2 * Char.GetNumericValue(codes[i][7]) +
+          3 * Char.GetNumericValue(codes[i][6]) +
+          4 * Char.GetNumericValue(codes[i][5]) +
+          5 * Char.GetNumericValue(codes[i][4]) +
+          6 * Char.GetNumericValue(codes[i][3]) +
+          7 * Char.GetNumericValue(codes[i][2]) +
+          8 * Char.GetNumericValue(codes[i][1]) +
+          9 * Char.GetNumericValue(codes[i][0])
           ) % 11 == 0;
 
         if (result)
