@@ -6,9 +6,8 @@ using System.Linq;
 
 namespace bomb
 {
-  class Program
+  public class Program
   {
-    private
     static void Main(string[] args)
     {
       var lines = File.ReadAllLines("./mission2.txt").Where( x => x.Length > 0 ).ToList();
@@ -22,7 +21,7 @@ namespace bomb
       }
     }
 
-    static int findSolution(string[] codes)
+    public static int findSolution(string[] codes)
     {
       for (int i = 0; i < codes.Length; i++)
       {
@@ -46,7 +45,7 @@ namespace bomb
       return 0;
     }
 
-    static string[] convertToStringCombi(List<string> combinaisons)
+    public static string[] convertToStringCombi(List<string> combinaisons)
     {
       var numbers = new string[10] {
         " _ " +
