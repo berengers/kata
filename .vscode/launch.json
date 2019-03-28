@@ -5,14 +5,14 @@
   "version": "0.2.0",
   "configurations": [
        {
-           "name": ".NET Core Launch (console)",
+           "name": "ANAGRAMS - .NET Core Launch (console)",
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "build",
            // If you have changed target frameworks, make sure to update the program path.
-           "program": "${workspaceFolder}/anagrams/bin/Debug/netcoreapp2.2/anagrams.dll",
+           "program": "${workspaceFolder}/anagrams/Anagrams/bin/Debug/netcoreapp2.2/Anagrams.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/anagrams",
+           "cwd": "${workspaceFolder}/anagrams/Anagrams",
            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
            "console": "internalConsole",
            "stopAtEntry": false,

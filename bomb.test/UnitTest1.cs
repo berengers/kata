@@ -54,7 +54,7 @@ namespace bomb.test
                 " _     _     _  _  _  _  _ |_ |_||_   || ||_  _||_|  | _|  ||_|  ||_| _||_ |_|  |",
                 " _  _  _  _     _  _  _  _  _||_||_|  |  ||_ | ||_ |_  _| _| _|  |  ||_||_||_||_|"
             });
-            var resp = new string[] { "0123456789", "765432189" };
+            var resp = new string[] { "546105287", "399716066" };
             Assert.Equal(resp, Program.convertToStringCombi(combis));
         }
 

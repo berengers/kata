@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/bomb/bomb.csproj"
+                "${workspaceFolder}/anagrams/Anagrams/Anagrams.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/anagrams/anagrams.csproj"
+                "${workspaceFolder}/bomb/bomb.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
