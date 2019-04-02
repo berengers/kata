@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/anagrams/Anagrams/Anagrams.csproj"
+                "${workspaceFolder}/RomanBills/RomanBills/RomanBills.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -17,7 +17,17 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/bomb/bomb.csproj"
+                "${workspaceFolder}/Anagrams/Anagrams/Anagrams.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Bomb/Bomb.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

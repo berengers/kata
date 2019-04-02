@@ -10,9 +10,9 @@
            "request": "launch",
            "preLaunchTask": "build",
            // If you have changed target frameworks, make sure to update the program path.
-           "program": "${workspaceFolder}/anagrams/Anagrams/bin/Debug/netcoreapp2.2/Anagrams.dll",
+           "program": "${workspaceFolder}/Anagrams/Anagrams/bin/Debug/netcoreapp2.2/Anagrams.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/anagrams/Anagrams",
+           "cwd": "${workspaceFolder}/Anagrams/Anagrams",
            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
            "console": "internalConsole",
            "stopAtEntry": false,
@@ -23,12 +23,24 @@
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "build",
-           "program": "${workspaceFolder}/bomb/bin/Debug/netcoreapp2.2/bomb.dll",
+           "program": "${workspaceFolder}/Bomb/bin/Debug/netcoreapp2.2/Bomb.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/bomb",
+           "cwd": "${workspaceFolder}/Bomb",
            "console": "internalConsole",
            "stopAtEntry": false,
            "internalConsoleOptions": "openOnSessionStart"
+       },
+       {
+        "name": "RomanBills - .NET Core Launch (console)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/RomanBills/RomanBills/bin/Debug/netcoreapp2.2/RomanBills.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/RomanBills/RomanBills",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "internalConsoleOptions": "openOnSessionStart"
        },
        {
            "name": ".NET Core Attach",
