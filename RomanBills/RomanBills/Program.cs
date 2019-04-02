@@ -12,6 +12,18 @@ namespace RomanBills
             var romansColumn = File.ReadAllLines("../mission3.txt");
             var integersColumn = convertRomansToIntegers(romansColumn);
             var difference = integersColumn.Aggregate((s1, s2) => s1 + s2);
+
+            if (difference == 0)
+            {
+                Console.WriteLine("Tous vos clients vous ont bien payé vos factures! :)");
+            } else if (difference < 0)
+            {
+                Console.WriteLine($"Le montant dût est de {difference * -1}€");
+            } else
+            {
+                Console.WriteLine($"Votre client a payé ce montant en trop {difference}€");
+                Console.WriteLine("Vous êtes apparement dans une dimenssion parallele ou les clients payent trop");
+            }
         }
 
         static int[] convertRomansToIntegers(string[] lines)
